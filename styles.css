@@ -1,1 +1,39 @@
-body{background-color: red;}
+body{ 
+    width: 850px;
+    margin: auto;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+main { 
+    height: 450px;
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/04/20/59/milky-way-1023340_1280.jpg) ;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+#uniqueID{
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+}
+section {
+    display: flex;
+    padding:3%;
+    height : 324px;
+    margin-bottom: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(224, 222, 222);
+    color: grey;
+}
+article { 
+    width: 270px;
+    background-color: rgb(224, 222, 222);
+
+}
